@@ -1,0 +1,5 @@
+1. Primitives vs. Objects
+
+	When comparing the String object with another string object, string methods need to be used. Alternative code to use would be: return (name.equals("Q"));
+
+	The second excerpt of code should work as intended since characters by themselves are primitive variables. The code should return true if ch (the first character in the String object) is equal to 'Q' (characters are inside 'single' quotes while strings are inside "double" quotes) and the length of the String object is equal to 1.
